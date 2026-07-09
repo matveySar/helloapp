@@ -1,5 +1,7 @@
 def hello():
     print("hello everyone")
+    greet_white()
+    greet_black()
 
 
 if __name__ == "__main__":
