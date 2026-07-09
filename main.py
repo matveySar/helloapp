@@ -1,5 +1,7 @@
 def hello():
     print("hello everyone")
+    greet_white()
+    greet_black()
 
 
 if __name__ == "__main__":
@@ -7,3 +9,6 @@ if __name__ == "__main__":
 
 def greet_white():
     print("hello white")
+
+def greet_black():
+    print("hello black")
